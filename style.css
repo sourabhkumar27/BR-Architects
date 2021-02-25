@@ -1,0 +1,493 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    border-bottom-style: none;
+    width:100%;
+    position: fixed;
+}  
+header li
+{
+    display: none;
+}  
+.logo
+{
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 3.55px;
+    word-spacing: 2px;
+    padding: 10px;
+}
+
+.bold-heading
+{
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+.hero-container
+{
+    background-image: url('images/architect.jpg');
+    background-size: cover;
+    color: white;
+    height: 275px;
+}
+
+.hero-container h1
+{
+    font-family: Verdana;
+    font-size: 35px;
+    letter-spacing: 4.72px;
+}
+
+.first-button
+{
+    background-color: #000000B2;
+    color: white;
+    margin-top: 29%;
+    margin-left: 30%;
+    letter-spacing: 4.09px;
+    padding: 20px;
+    width: 150px;
+    border: none;
+}
+
+.second-button
+{
+    display: none;
+}
+
+.projects-heading h1
+{
+    padding: 20px;
+    margin-left: 5px;
+    font-family: Arial;
+    font-size: 23px;
+}
+
+.projects-heading p
+{
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.projects-heading hr
+{
+    margin: 0 auto;
+    width: 87%;
+}
+
+.projects-card
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-card button
+{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    padding: 10px;
+}
+
+.card-1
+{
+    background-image: url('images/house1.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: 25px;
+    height: 200px;
+}
+
+.card-2
+{
+    background-image: url('images/house2.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: 25px;
+    height: 200px;
+}
+
+.card-3
+{
+    background-image: url('images/house3.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: 25px;
+    height: 200px;
+}
+
+.card-4
+{
+    background-image: url('images/house4.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: 25px;
+    height: 200px;
+}
+
+.card-5
+{
+    background-image: url('images/house5.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: 25px;
+    height: 200px;
+}
+
+.card-6
+{
+    background-image: url('images/house6.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: 25px;
+    height: 200px;
+}
+
+.card-7
+{
+    background-image: url('images/house7.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin: 25px;
+    height: 200px;
+}
+
+.card-8
+{
+    background-image: url('images/house8.jpg');
+    background-size: cover;
+    color: white;
+    width: 85%;
+    margin:25px;
+    height: 200px;
+}
+
+.staff
+{
+    display: flex;
+    flex-direction: column;
+}
+.staff-img
+{
+    width: 85%;
+    margin: 25px;
+}
+
+.staff-card h2
+{
+    font-family: Arial;
+    font-size: 23px;
+    margin-left: 25px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+.staff-card h6
+{
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 25px;
+    padding-bottom: 8px;
+    color: #00000080;
+    text-align: left;
+}
+
+.staff-card p
+{
+    font-family: Arial;
+    font-size: 16px;
+    padding-bottom: 8px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.contact
+{
+    background-color: #0000000D;
+    width: 85%;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+    border: none;
+}
+
+.contact-heading h1
+{
+    padding: 20px;
+    margin-left: 2px;
+    font-family: Arial;
+    font-size: 23px;
+}
+
+.contact-heading p
+{
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.contact-heading hr
+{
+    margin: 0 auto;
+    width: 87%;
+}
+.search
+{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.forms
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.search-button
+{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 45%;
+}
+
+.search-img
+{
+    width: 100%;
+}
+
+.blank-footer
+{
+    background-color: black;
+    height: 30px;
+}
+
+@media screen and (min-width: 650px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header li
+    {
+        display: inline;
+    }
+
+    header a
+    {
+        color: black;
+        text-decoration: none;
+        padding: 0 1rem;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    header a:hover
+    {
+        background-color: black;
+        color: white;
+        padding: 4px;
+    }
+
+    header nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero-container
+    {
+    background-image: url('images/architect.jpg');
+    background-size: cover;
+    color: white;
+    height: 340px;
+    }
+
+    .first-button
+    {
+    background-color: #000000B2;
+    color: white;
+    margin-top: 22%;
+    margin-left: 22%;
+    letter-spacing: 4.09px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    }
+
+    .second-button
+    {
+        display: inline;
+        margin-top: 23%;
+    }
+
+    .inside-card-1,
+    .inside-card-2,
+    .inside-card-3,
+    .inside-card-4,
+    .staff-card-1,
+    .staff-card-2
+    {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .projects-heading hr,
+    .contact-heading hr
+    {
+        margin: 0 auto;
+        width: 92%;
+    }
+    
+    .forms
+    {
+       margin-top: 8px;
+       margin-bottom: 8px;
+       width: 100%;
+       padding: 8px;
+    }
+
+    .search-button
+    {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 25%;
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .hero-container
+    {
+        height: 470px;
+    }
+
+    .first-button
+    {
+    background-color: #000000B2;
+    color: white;
+    margin-top: 25%;
+    margin-left: 33%;
+    letter-spacing: 4.09px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    }
+
+    .second-button
+    {
+        display: inline;
+        margin-top: 23%;
+    }
+
+    .projects-heading hr,
+    .contact-heading hr
+    {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .search-button
+    {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 15%;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .hero-container
+    {
+        height: 470px;
+    }
+
+    .first-button
+    {
+    background-color: #000000B2;
+    color: white;
+    margin-top: 18%;
+    margin-left: 37%;
+    letter-spacing: 4.09px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    }
+
+    .second-button
+    {
+        display: inline;
+        margin-top: 18%;
+    }
+
+    .projects-card-1,
+    .projects-card-2,
+    .staff
+    {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+    }
+}
